@@ -1,0 +1,41 @@
+﻿生成启动时间为 2019/2/19 1:17:08。
+     1>项目“F:\C++\YY\YY\YY.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\YY.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt YY.cpp
+         YY.cpp
+     1>f:\c++\yy\yy\base.h(59): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“vsprintf”的声明
+     1>f:\c++\yy\yy\base.h(127): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>f:\c++\yy\yy\base.h(142): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(245) : 参见“strdup”的声明
+     1>f:\c++\yy\yy\base.h(143): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(254) : 参见“strlwr”的声明
+     1>f:\c++\yy\yy\base.h(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\c++\yy\yy\base.h(186): warning C4244: “初始化”: 从“DWORD”转换到“unsigned char”，可能丢失数据
+     1>f:\c++\yy\yy\xcgui.h(1848): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>f:\c++\yy\yy\tab3.h(58): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\c++\yy\yy\tab3.h(87): warning C4018: “>”: 有符号/无符号不匹配
+     1>YY.cpp(122): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>YY.cpp(444): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>YY.cpp(520): warning C4018: “<”: 有符号/无符号不匹配
+     1>YY.cpp(670): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>YY.cpp(737): warning C4018: “<”: 有符号/无符号不匹配
+     1>YY.cpp(913): warning C4018: “<”: 有符号/无符号不匹配
+     1>YY.cpp(1253): warning C4018: “>”: 有符号/无符号不匹配
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\YY\Release\YY.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\C++\YY\Release\YY.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\YY\Release\YY.lib" /MACHINE:X86 /SAFESEH Release\YY.res
+         Release\RegDM.obj
+         Release\stdafx.obj
+         Release\YY.obj
+         XCGUI.lib
+         正在生成代码
+         已完成代码的生成
+         YY.vcxproj -> F:\C++\YY\Release\YY.exe
+     1>已完成生成项目“F:\C++\YY\YY\YY.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.60
